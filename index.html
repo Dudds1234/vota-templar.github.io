@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VotaTemplar - Login</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>VotaTemplar</h1>
+
+    <div id="loginContainer" class="card loginCard">
+        <h2>Login</h2>
+        <input type="text" id="numeroAluno" placeholder="Número do aluno">
+        <input type="password" id="senhaAdmin" placeholder="Senha de administrador">
+        <button id="btnLogin">Entrar</button>
+
+        <div id="qrcodeContainer" style="margin-top:20px; text-align:center;">
+            <h4>Ou acede pelo QR Code:</h4>
+            <canvas id="qrcode"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
