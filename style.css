@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+}
+
+.card {
+    background-color: #111;
+    border: 2px solid #f00;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #f00;
+}
+
+.loginCard {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid #f00;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+
+    /* Logótipo aplicado no fundo */
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    background-size: 120px;
+
+    /* Empurrar inputs para baixo para não ficar por cima do logo */
+    padding-top: 160px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    /* Texto branco + contorno vermelho */
+    color: #fff;
+    text-shadow: 
+        2px 2px 0 #f00,
+        -2px 2px 0 #f00,
+        2px -2px 0 #f00,
+        -2px -2px 0 #f00;
+}
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    color: #ffffff;
+
+    /* Sombra vermelha discreta e profissional */
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.4);
+}
